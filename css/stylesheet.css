@@ -1,25 +1,40 @@
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  margin: 0 auto;
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
 }
 
-td {
-  width: 35px;
-  height: 35px;
-  text-align: center;
+body{
+    background: #eee;
 }
 
-.bRight {
-  border-right: 3px solid black;
-}
-
-.bBottom {
-  border-bottom: 3px solid black;
-}
-
-.content{
+div.content{
+    width: 60%;
     margin: 150px auto;
     padding: 25px;
-    width: auto;
+    background: white;
+    border: 1px solid #ddd;
+}
+
+table, td{
+    border-collapse: collapse;
+}
+
+table{
+    border: 3px solid #ddd;
+}
+
+td{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.borderBottom{
+    border-bottom: 3px solid #ddd;
+}
+
+.borderRight{
+    border-right: 3px solid #ddd;
 }
